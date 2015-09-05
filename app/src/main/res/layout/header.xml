@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/rlheader"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#1281A9">
+
+        <ImageButton
+            android:id="@+id/imgLeftMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/ic_navigation_drawer" />
+
+        <ImageButton
+            android:id="@+id/imgRightMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/imgLeftMenu"
+            android:background="@drawable/ic_navigation_drawer" />
+
+        <TextView
+            android:id="@+id/txtLeftMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imgLeftMenu"
+            android:text="Left Menu"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:id="@+id/txtRightMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/txtLeftMenu"
+            android:layout_alignBottom="@+id/txtLeftMenu"
+            android:layout_toLeftOf="@+id/imgRightMenu"
+            android:text="Right Menu"
+            android:textColor="#FFF"  />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
