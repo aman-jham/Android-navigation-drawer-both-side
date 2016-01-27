@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DoubleDrawer.iml" filepath="$PROJECT_DIR$/DoubleDrawer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Android-navigation-drawer-both-side.iml" filepath="$PROJECT_DIR$/Android-navigation-drawer-both-side.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
